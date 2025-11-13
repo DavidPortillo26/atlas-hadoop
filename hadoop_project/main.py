@@ -1,6 +1,6 @@
 #!/usr/bin/python2.7
 
-createdir = __import__('4-createdir').createdir
+deletedir = __import__('5-deletedir').deletedir
 
 l = ["/Betty", "/Betty/Holberton"]
-createdir(l)
+deletedir(l)
