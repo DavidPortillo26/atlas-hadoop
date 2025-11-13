@@ -1,6 +1,9 @@
 #!/usr/bin/python2.7
 
-deletedir = __import__('5-deletedir').deletedir
+download = __import__('6-download').download
 
-l = ["/Betty", "/Betty/Holberton"]
-deletedir(l)
+l = ["/holbies/input/lao.txt"]
+download(l)
+lao =  open("/tmp/lao.txt", "r")
+print(lao.read())
+lao.close()
